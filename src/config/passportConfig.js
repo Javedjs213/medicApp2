@@ -38,7 +38,7 @@
 
 
 import passport from 'passport';
-import User from '../models/authModel.js';
+import {User} from '../models/authModel.js';
 
 
 passport.use(User.createStrategy());
